@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #575353;
+}
+ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    /*color: azure}; */
+}
+
+.header{
+    background-color: rgb(74, 121, 163);
+    display: flex;
+    flex-wrap: wrap; /*ajusta o tamanho dos itens caso o tamanho
+    da tela mude, mas sem mudá-los de posição. "no-wrap" faz o oposto*/
+    align-items: center;
+    padding: 20px;
+
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 15px;
+}
+
+.menu a{
+    display: block;
+    background-color: tomato;
+    border-radius: 5px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #ccc;  
+}
+
+.item{
+    background-color: #575353;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 300px;
+}
+
+img{
+    width: 295px;
+    height: 180px;
+    border-radius: 20px;
+}
