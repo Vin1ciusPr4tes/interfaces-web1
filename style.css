@@ -13,6 +13,12 @@ ul, li, p{
 h1{
     text-align: center;
 }
+
+.logo{
+    width: 50px;
+    height: 53px;
+}
+
 a{
     text-decoration: none;
     color: aliceblue;
@@ -39,7 +45,7 @@ a{
 
 .menu a{
     display: block;
-    background-color: tomato;
+    background-color: rgb(0, 78, 146);
     border-radius: 5px;
 }
 #container{
@@ -57,6 +63,7 @@ a{
     color: #fff;
     padding: 20px;
     margin: 5px;
+    height: 400px;
     width: 300px;
 }
 
